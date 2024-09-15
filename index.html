@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Igor Santana</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Igor de Almeida Santana</h1>
+        <nav>
+            <a href="http://www.linkedin.com/in/igor-santana-734b84284/">
+                <img src="https://i.pinimg.com/236x/db/c3/94/dbc394d8c833cd0780797758a9ed264e.jpg" alt="linkedin" width="30" height="30">
+            </a>
+            <a href="http://github.com/Igor0Santana">
+                <img src="https://i.pinimg.com/236x/64/88/0b/64880b9b0fe5b53bbe3f7280d262b33f.jpg" alt="github" width="30" height="30">
+            </a>
+        </nav>
+    </header>
+
+    <!-- Introdução -->
+    <section>
+        <p>Olá, meu nome é Igor, tenho 20 anos, sou estudante de <b>Análise e Desenvolvimento de Sistemas</b>, com sólidos conhecimentos em programação e desenvolvimento de software. Possuo experiência acadêmica em <i>linguagem C</i>, e habilidades em tecnologias web como <i>HTML, CSS e JavaScript</i>. Proativo, e com forte capacidade de aprendizado e adaptação, busco aplicar conhecimentos em um ambiente prático, visando o desenvolvimento profissional e o crescimento na área de tecnologia.</p>
+
+        <p>Focado em aprender metodologias ágeis e aprimorar competências em <i>desenvolvimento full-stack, banco de dados, e práticas de versionamento com Git/GitHub</i>. Interesse em atuar como <b>desenvolvedor júnior</b> ou em funções correlatas, em uma equipe colaborativa e desafiadora, contribuindo para soluções tecnológicas inovadoras.</p>
+
+        <img src="FOTO-IGORPNG.png" alt="minha foto" width="300">
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ol>
+            <li>Linguagem C</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Git, GitHub</li>
+            <li>Inglês intermediário</li>
+            <li>Trabalho em Equipe</li>
+            <li>Resolução de Problemas</li>
+            <li>Proatividade</li>
+            <li>Adaptabilidade</li>
+        </ol>
+    </section>
+
+    <!-- Interesses -->
+    <section id="interesses">
+        <h2>Interesses</h2>
+        <ul>
+            <li>Desenvolvimento full-stack</li>
+            <li>Banco de dados</li>
+            <li>Práticas de versionamento com Git/GitHub</li>
+            <li>Desenvolvedor júnior</li>
+        </ul>
+    </section>
+
+    <!-- Experiências -->
+    <article>
+        <h2>Tabela de Tecnologias</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>C</td>
+                    <td>Intermediário</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Intermediário</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                </tr>
+                <tr>
+                    <td>Git/GitHub</td>
+                    <td>Básico</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+
+    <!-- Formulário de Contato -->
+    <footer>
+        <h2>Entre em contato!</h2>
+        <form action="https://formspree.io/f/xdknvlqy" method="POST">
+            <label for="nome">Nome :</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <p>Gênero:</p>
+            <label for="masculino">M:</label>
+            <input type="radio" id="masculino" name="genero" value="masculino" required>
+            <label for="feminino">F:</label>
+            <input type="radio" id="feminino" name="genero" value="feminino" required><br>
+
+            <p>Interesses:</p>
+            <label for="interesse1">Desenvolvimento back-end:</label>
+            <input type="checkbox" id="interesse1" name="interesse" value="backend"><br>
+
+            <label for="interesse2">Desenvolvimento front-end:</label>
+            <input type="checkbox" id="interesse2" name="interesse" value="frontend"><br>
+
+            <label for="interesse3">Banco de Dados:</label>
+            <input type="checkbox" id="interesse3" name="interesse" value="banco de dados"><br>
+
+            <p>Mensagem:</p>
+            <textarea id="mensagem" name="mensagem" required></textarea><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </footer>
+
+</body>
+</html>
